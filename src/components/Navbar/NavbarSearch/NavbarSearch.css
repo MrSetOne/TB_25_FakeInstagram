@@ -1,0 +1,31 @@
+.NavbarSearch {
+    flex-shrink: 5;
+    height: 3.6rem;
+    width: 26.8rem;
+    border-radius: 1rem;
+    background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    color: #a0a0a0;
+    margin: 2.4rem;
+}
+
+.NavbarSearch i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.Search__Input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+@media (max-width: 640px) {
+    .NavbarSearch {
+        display: none;
+    }
+}

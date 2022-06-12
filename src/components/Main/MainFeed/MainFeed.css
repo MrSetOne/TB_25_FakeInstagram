@@ -1,0 +1,6 @@
+.MainFeed {
+    width: 468px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}

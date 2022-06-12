@@ -1,0 +1,93 @@
+.MainPosts {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.post {
+    width: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    border: #dbdbdb solid 1px;
+}
+
+.post * {
+    font-size: 1.4rem;
+}
+
+.post__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.postHeader__porfile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.postHeader__porfile img {
+    width: 3.2rem;
+    height: 3.2rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.post__image {
+    width: 100%;
+}
+
+.post__subinfo {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+}
+
+.post__interactions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post__interaction--menu {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.post__likes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.postLikes__imgs img {
+    width: 2.3rem;
+    height: 2.3rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: -1rem;
+}
+
+.postLikes__imgs img:first-child {
+    margin-left: 0;
+}
+
+.post__likes span {
+    font-weight: 700;
+}
+
+.post__title span {
+    font-weight: 700;
+}
+
+.post__comments {
+    font-size: 1.2rem;
+    color: #8e8e8e;
+}
+
+.post__time {
+    font-size: 1rem;
+    color: #8e8e8e;
+}

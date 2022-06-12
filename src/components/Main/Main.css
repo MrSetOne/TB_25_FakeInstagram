@@ -1,0 +1,12 @@
+.Main {
+    display: flex;
+    width: 82rem;
+    margin: 2.5rem auto;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .MainAside {
+        display: none;
+    }
+}

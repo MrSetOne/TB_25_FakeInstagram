@@ -1,0 +1,22 @@
+header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.Navbar {
+    display: flex;
+    height: 6rem;
+    align-items: center;
+    padding: 0 2rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: min(100%, 97.5rem);
+}
+
+.Navbar__logo {
+    height: 3.9rem;
+}

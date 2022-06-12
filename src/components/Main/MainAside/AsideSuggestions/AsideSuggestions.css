@@ -1,0 +1,52 @@
+.AsideSuggestions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.AsideSuggestions__header {
+    display: flex;
+    justify-content: space-between;
+    color: #8e8e8e;
+}
+
+.AsideSuggestions__header p {
+    font-weight: 700;
+    color: #262626;
+}
+
+.Suggestions__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Suggestions__item img {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Suggestions__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.Suggestions__info h3 {
+    font-size: 1.4rem;
+}
+
+.Suggestions__info p {
+    font-size: 1.2rem;
+    color: #8e8e8e;
+}
+
+.Suggestions__link {
+    font-weight: 700;
+    color: #0095f6;
+    font-size: 1.2rem;
+}
